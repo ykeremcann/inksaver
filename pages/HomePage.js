@@ -21,7 +21,7 @@ const HomePage = () => {
                         <Text style={styles.mini}>Wifi Connection</Text></View>
                     <View style={styles.elem}>
                         <Image source={require('../assets/bluetooth.png')} style={styles.img}></Image>
-                        <Text style={styles.mini}>Bluetooth</Text></View>
+                        <Text style={styles.mini}>wifi</Text></View>
                 </View>
             </View>
             
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     },
     boldtext: {
         fontSize: 16,
-        color:"black"
+        color:"red"
     },
     bold: {
         fontWeight: "bold"
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
         marginTop: 50
     },
     buttonText: {
-        color: 'white',
+        color: 'black',
         fontSize: 16,
     },
     center: {
