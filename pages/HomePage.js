@@ -21,7 +21,7 @@ const HomePage = () => {
                         <Text style={styles.mini}>Wifi Connection</Text></View>
                     <View style={styles.elem}>
                         <Image source={require('../assets/bluetooth.png')} style={styles.img}></Image>
-                        <Text style={styles.mini}>wifi</Text></View>
+                        <Text style={styles.mini}>TEST2</Text></View>
                 </View>
             </View>
             
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 20,
-        backgroundColor: '#fff',
+        backgroundColor: 'red',
     },
     boldtext: {
         fontSize: 16,
